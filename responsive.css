@@ -1,0 +1,77 @@
+/* Untuk Tablet */
+@media all and (max-width: 768px) {
+.contents {
+    width: 50%;
+    margin-bottom:50px;
+}
+.top-wrapper h1 {
+    font-size: 32px;
+    text-align: left;
+}
+  .menu-icon {
+    display: block;
+  }
+  .header-list {
+      display: none;
+  }
+  .top-wrapper p {
+    margin-left: -25px;
+  }
+  .contents {
+    margin-left: 190px;
+  }
+  .contents p {
+    margin: 1px;
+    font-size: 15px;
+  }
+  .contents-item {
+    margin-left: 24px;
+    margin-bottom: 50px;
+  }
+  .contents-item p {
+    font-size: 13px;
+  }
+  .contents-item img  {
+    height: 70px;
+    width: 70px;
+  }
+  .contents-item-1 {
+    margin-left: -20px;
+    width: 25%;
+    margin-bottom: 50px;
+  }
+  .contents-item-1 h6 {
+    font-size: 5px;
+    margin-left: 5px;
+  }
+  .contents-item-1 span {
+    font-size: 7px;
+  }
+  .galery div img {
+    width: 470px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+  }
+  .galery {
+    margin-left: -90px;
+    
+  }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 576px) {
+  .contents {
+    width: 50%;
+  }
+  .top-wrapper {
+    width: 100%;
+  }
+  .galery {
+    margin-left: -40px;
+    
+  }
+  .galery div img {
+    width: 270px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+  }
+}
